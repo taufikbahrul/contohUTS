@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#pertama{
+    background: url(./asset/imag.jpg);
+    width: 100%;
+    height: 804px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+nav .gambarnav {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav .gambarnav img {
+    width: 170px;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li {
+    margin: 20px;
+    display: inline;
+   
+}
+
+nav li:nth-child(4) {
+    margin-right: 0px;
+}
+
+
+
+.atas {
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: #060826;
+    opacity: 0.8;
+    width: 100%;
+    height: 804px;
+    z-index: 1;
+}
+
+.konten {
+    display: flex;
+    margin: 160px auto;
+}
+
+
+.konten .kanan {
+    margin: auto;
+    display: flex;
+    color: white;
+    width: 40%;
+    justify-content: left;
+}
+
+.konten .kanan .isikanan{
+    position: absolute;
+    left: 0;
+    margin-top: 400px;
+    
+
+}
+.konten .isikanan h1{
+    justify-content: left;
+    color: white;
+}
+
+.konten .kanan .isikanan h1{
+    font-size: 15px;
+}
+
+.konten .kanan .isikanan p{
+    text-align: left;
+    line-height: 40px;
+    font-weight: lighter;
+    font-size: 35px;
+    border-bottom: 1px solid #fff;
+}
+
+#kedua{
+    margin-bottom: 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: #fff;
+    overflow: visible;
+    position: relative;
+    transition: 0.2s;
+}
+
+#kedua .page-heading h3 {
+    margin: 0 0 15px;
+}
+
+h3, .h3 {
+    font-size: 24px;
+}
+
+
+#ketiga {
+    padding-top: 100px;
+}
+
+.page-section {
+    margin-bottom: 64px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1056px;
+}
+
+.page-heading {
+    border-bottom: 2px solid #D1A358;
+    background-position: right 5px;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.featured-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gambar img{
+    width: 320px;
+}
+.gambar{
+    float: left;
+    padding-right: 31px;;
+}
+
+#keempat {
+    padding-top: 60px;
+}
+
+.page-section {
+    margin-bottom: 64px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1056px;
+}
+
+.page-heading {
+    border-bottom: 2px solid #D1A358;
+    background-position: right 5px;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.gambar2 img{
+    width: 300px;
+}
+.gambar2{
+    float: left;
+    padding-right: 31px;;
+}
+.row2 img{
+    height: 400px;
+    width: 320px;
+    background-position: center;
+    background-size: cover;
+}
